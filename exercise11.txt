@@ -1,0 +1,21 @@
+Copyright Notice
+================
+
+Copyright © 1998 Pragmatix Software Pty. Ltd. All rights reserved.
+
+Visit our web site for other freeware, including the Pragmatica CASE Tool
+www.pragsoft.com
+
+This book is freeware, provided it is used for non-profit purposes only.
+
+Provided this copyright notice accompanies the book, you may redistribute, free of charge only, electronic and printed copies of this book.
+
+Electronic versions of this book may be downloaded from our web site.
+
+
+Exercises
+=========
+
+* 11.1
+Use the istream member functions to define an overloaded version of the >> operator for the Set class (see Chapter 7)
+so that it can input sets expressed in the conventional mathematical notation (e.g., {2, 5, 1}).
