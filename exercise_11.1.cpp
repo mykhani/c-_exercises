@@ -30,6 +30,7 @@ private:
 
 public:
 	Set(int maxCount);
+	~Set();
 	bool Contains(T);
 	void Insert(T) throw (OverflowException);
 	friend istream& operator >> <T> (istream&, Set&);
@@ -45,6 +46,12 @@ Set<T>::Set(int size)
 	maxCount = size;
 	count = 0;
 	index = 0;
+}
+
+template <class T>
+Set<T>::~Set()
+{
+	delete [] elements;
 }
 
 template <class T>
